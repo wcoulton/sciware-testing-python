@@ -6,7 +6,7 @@ on:
   - push # Run this workflow every time we push (can also include - pull_request)
 jobs:
   test:
-    runs-on: [ubuntu-latest,macos-11.0]
+    runs-on: ubuntu-latest #,macos-11.0
     strategy:
       matrix: # Define multiple configurations to test on
         python-version: [3.7, 3.8, 3.9]
