@@ -22,11 +22,14 @@ def test_sum_numbers_empty():
     # what's the sum of an empty list?
     pass
 
-#@pytest.mark.xfail(strict=True, raises=TypeError)
+@pytest.mark.xfail(strict=True, raises=TypeError)
 def test_sum_strings():
-    #assert sciware_testing_python.sum_numbers(["1","2","3"]) == "123"
-    pass
+    assert sum_numbers(["1","2","3"]) == "123"
+    #pass
 
 # Write a test for the add_vectors function
+def test_add_vector():
+	rslt = add_vectors([1,2,3],[-1,-2,-3])
+	assert rslt==[0,0,0]
 
 # Write a test for sum_numbers on a list of booleans
