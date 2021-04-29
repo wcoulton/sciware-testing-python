@@ -36,5 +36,5 @@ jobs:
     #  uses: codecov/codecov-action@v1
     #  with:
     #    name: exercise-codecov
-    #    token:  # PUT YOUR TOKEN HERE
+    #    token: 294fe5b2-fadc-47b3-8e31-d26a5e569732 # PUT YOUR TOKEN HERE
     #    fail_ci_if_error: true

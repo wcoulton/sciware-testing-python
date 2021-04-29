@@ -36,7 +36,7 @@ jobs:
       uses: codecov/codecov-action@v1
       with:
         name: example-codecov
-        token: c8fb235d-d1bc-45cf-9575-a32ed97eb8ee # PUT YOUR TOKEN HERE
+        token: 294fe5b2-fadc-47b3-8e31-d26a5e569732 # PUT YOUR TOKEN HERE
         fail_ci_if_error: true
 
     - name: Typing
